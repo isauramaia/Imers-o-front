@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -42,7 +43,6 @@ body {
     font-weight: 600;
     text-decoration: none;
     font-size: 14px;
-    font-family: 'DM sans', sans-serif;
 
 }
 
@@ -55,9 +55,7 @@ body {
     padding: 4px 8px;
     margin-top: 10px;
     color: #b3b3b3;
-    font-size: 14px;
-    font-family: 'DM sans', sans-serif;
-    
+    font-size: 14px;    
 }
 
 .library__content {
@@ -76,7 +74,6 @@ body {
     text-transform: none;
     text-align: center;
     font-size: 14px;
-    font-family: 'DM sans', sans-serif;
     padding: 20px 10px; 
 }
 
@@ -127,12 +124,11 @@ body {
     display:flex;
     justify-content: center;
     
-    background-color: #fff;
-    color: #000;
+    background-color: #FF6B6C;
+    color: #fff;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: 'DM sans', sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -170,7 +166,7 @@ text-decoration: underline;
 }
 
 footer{
-    background: linear-gradient(to right, #4CAF50, #FFC107);
+    background: linear-gradient(to right, #FF6B6C, #ADB2D3);
     position:fixed;
     bottom: 0;
     width: 100%;
@@ -194,7 +190,6 @@ footer{
     gap: 10px;
     font-size: 14px;
     font-weight: 700;
-    font-family: 'DM sans', sans-serif;
     padding: 12px 14px;
 
 }
@@ -208,7 +203,6 @@ footer{
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: 'DM sans', sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 12px 14px;
@@ -216,5 +210,6 @@ footer{
     width: 140px;
     margin: 10px;
 }
+
 
 
